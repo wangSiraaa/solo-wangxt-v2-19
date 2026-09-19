@@ -23,3 +23,12 @@ venv/
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# Go 构建/测试产物
+/licensepool
+*.test
+*.out
+
+# 前端构建产物（由 vite 输出到后端 embed 目录）
+backend/cmd/server/web/dist/
+!backend/cmd/server/web/dist/.gitkeep
