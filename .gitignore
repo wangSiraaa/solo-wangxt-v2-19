@@ -23,3 +23,10 @@ venv/
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# 本地便携工具链与运行数据
+tools/
+tmp/
+data/
+run/
+backend/frontend-dist/
